@@ -213,13 +213,13 @@ function main() {
 		console.log(err);
 		
 	});
-	loadFBX('model/fbx/avatar1.fbx', [2, 0, -1], [0.01, 0.01, 0.01]).then(function(obj1){
+	/*loadFBX('model/fbx/avatar1.fbx', [2, 0, -1], [0.01, 0.01, 0.01]).then(function(obj1){
 		// console.log('termine!');
 		mixer = new THREE.AnimationMixer( obj1 );
 		var action = mixer.clipAction( obj1.animations[ 0 ] );
 		action.play();
 		
-	})
+	})*/
 	
     var plane = new THREE.Mesh(
         new THREE.PlaneBufferGeometry( 80, 80 ),
